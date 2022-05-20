@@ -3,7 +3,7 @@ cd $LFS/sources
 
 tar xvf gcc-11.2.0.tar.xz
 
-cd gcc-10.2.0
+cd gcc-11.2.0
 
 tar -xf ../mpfr-4.1.0.tar.xz
 mv -v mpfr-4.1.0 mpfr
@@ -50,6 +50,6 @@ ln -sv gcc $LFS/usr/bin/cc
 
 cd $LFS/sources
 
-rm -rf xvf gcc-11.2.0
+rm -rf gcc-11.2.0
 
 echo "Done"
