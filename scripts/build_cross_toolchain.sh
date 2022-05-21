@@ -1,3 +1,4 @@
+#!/bin/bash
 source $LFS/alfs/toolchain/binutils-pass-1.sh
 
 source $LFS/alfs/toolchain/gcc-pass-1.sh

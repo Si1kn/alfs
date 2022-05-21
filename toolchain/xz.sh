@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf xz-5.2.5.tar.xz
@@ -16,6 +17,4 @@ make DESTDIR=$LFS install
 
 cd $LFS/sources
 
-rm -rf xz-5.2.5
-
-echo "Done"
+rm -rf xz-5.2.5#!/bin/bash

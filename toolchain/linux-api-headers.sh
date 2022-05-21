@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf linux-5.16.9.tar.xz
@@ -14,5 +15,3 @@ cp -rv usr/include $LFS/usr
 cd $LFS/sources
 
 rm -rf linux-5.16.9
-
-echo "Done"

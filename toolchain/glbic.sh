@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf glibc-2.35.tar.xz
@@ -38,5 +39,3 @@ $LFS/tools/libexec/gcc/$LFS_TGT/11.2.0/install-tools/mkheaders
 cd $LFS/sources
 
 rm -rf glibc-2.35
-
-echo "Done"

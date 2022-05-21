@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf gcc-11.2.0.tar.xz
@@ -54,5 +55,3 @@ cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
 cd $LFS/sources
 
 rm -rf gcc-11.2.0
-
-echo "Done"

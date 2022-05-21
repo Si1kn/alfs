@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /sources
 
 tar xvf example

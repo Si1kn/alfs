@@ -1,3 +1,4 @@
+#!/bin/bash
 # Libstdc++ from GCC-11.2.0, Pass 2
 cd /sources
 

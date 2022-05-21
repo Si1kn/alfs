@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf sed-4.8.tar.xz
@@ -14,5 +15,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf sed-4.8
-
-echo "Done"

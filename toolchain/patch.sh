@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf patch-2.7.6.tar.xz
@@ -15,5 +16,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf patch-2.7.6
-
-echo "Done"

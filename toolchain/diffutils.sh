@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf diffutils-3.8.tar.xz
@@ -13,5 +14,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf diffutils-3.8
-
-echo "Done"

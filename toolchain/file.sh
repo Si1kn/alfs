@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf file-5.41.tar.gz
@@ -23,5 +24,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf file-5.41
-
-echo "Done"

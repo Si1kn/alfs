@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf example
@@ -25,5 +26,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf example
-
-echo "Done"

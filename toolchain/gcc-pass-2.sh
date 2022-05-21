@@ -1,4 +1,4 @@
-
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf gcc-11.2.0.tar.xz
@@ -51,5 +51,3 @@ ln -sv gcc $LFS/usr/bin/cc
 cd $LFS/sources
 
 rm -rf gcc-11.2.0
-
-echo "Done"
