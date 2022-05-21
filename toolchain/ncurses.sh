@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf ncurses-6.3.tar.gz
@@ -34,5 +35,3 @@ echo "INPUT(-lncursesw)" > $LFS/usr/lib/libncurses.so
 cd $LFS/sources
 
 rm -rf ncurses-6.3
-
-echo "Done"

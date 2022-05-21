@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf gzip-1.11.tar.xz
@@ -13,5 +14,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf gzip-1.11
-
-echo "Done"

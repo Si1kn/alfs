@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf coreutils-9.0.tar.xz
@@ -25,5 +26,3 @@ sed -i 's/"1"/"8"/'                    $LFS/usr/share/man/man8/chroot.8
 cd $LFS/sources
 
 rm -rf coreutils-9.0
-
-echo "Done"

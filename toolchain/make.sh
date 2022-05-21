@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf make-4.3
@@ -17,5 +18,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf make-4.3
-
-echo "Done"

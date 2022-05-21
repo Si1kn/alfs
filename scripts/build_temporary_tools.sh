@@ -1,3 +1,4 @@
+#!/bin/bash
 source $LFS/alfs/toolchain/m4.sh
 
 source $LFS/alfs/toolchain/ncurses.sh

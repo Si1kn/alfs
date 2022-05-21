@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xfv binutils-2.38.tar.xz
@@ -20,5 +21,3 @@ make install
 cd $LFS/sources
 
 rm -rf binutils-2.38
-
-echo "Completed"

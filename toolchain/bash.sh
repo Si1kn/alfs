@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf bash-5.1.16.tar.gz
@@ -19,5 +20,3 @@ ln -sv bash $LFS/bin/sh
 cd $LFS/sources
 
 rm -rf bash-5.1.16
-
-echo "Done"

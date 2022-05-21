@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /sources
 
 tar xvf man-pages-5.13.tar.xz
@@ -9,5 +10,3 @@ make prefix=/usr install
 cd /sources
 
 rm -rf man-pages-5.13
-
-echo "Done"

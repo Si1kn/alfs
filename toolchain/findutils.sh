@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $LFS/sources
 
 tar xvf findutils-4.9.0.tar.xz
@@ -16,5 +17,3 @@ make DESTDIR=$LFS install
 cd $LFS/sources
 
 rm -rf findutils-4.9.0
-
-echo "Done"
