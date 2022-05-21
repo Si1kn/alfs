@@ -1,36 +1,36 @@
-$LFS/alfs/toolchain/m4.sh
+source $LFS/alfs/toolchain/m4.sh
 
-$LFS/alfs/toolchain/ncurses.sh
+source $LFS/alfs/toolchain/ncurses.sh
 
-$LFS/alfs/toolchain/bash.sh
+source $LFS/alfs/toolchain/bash.sh
 
-$LFS/alfs/toolchain/coreutils.sh
+source $LFS/alfs/toolchain/coreutils.sh
 
-$LFS/alfs/toolchain/diffutils.sh
+source $LFS/alfs/toolchain/diffutils.sh
 
-$LFS/alfs/toolchain/file.sh
+source $LFS/alfs/toolchain/file.sh
 
-$LFS/alfs/toolchain/findutils.sh
+source $LFS/alfs/toolchain/findutils.sh
 
-$LFS/alfs/toolchain/gawk.sh
+source $LFS/alfs/toolchain/gawk.sh
 
-$LFS/alfs/toolchain/grep.sh
+source $LFS/alfs/toolchain/grep.sh
 
-$LFS/alfs/toolchain/gzip.sh
+source $LFS/alfs/toolchain/gzip.sh
 
-$LFS/alfs/toolchain/make.sh
+source $LFS/alfs/toolchain/make.sh
 
-$LFS/alfs/toolchain/patch.sh
+source $LFS/alfs/toolchain/patch.sh
 
-$LFS/alfs/toolchain/sed.sh
+source $LFS/alfs/toolchain/sed.sh
 
-$LFS/alfs/toolchain/tar.sh
+source $LFS/alfs/toolchain/tar.sh
 
-$LFS/alfs/toolchain/xz.sh
+source $LFS/alfs/toolchain/xz.sh
 
-$LFS/alfs/toolchain/binutils-pass-2.sh
+source $LFS/alfs/toolchain/binutils-pass-2.sh
 
-$LFS/alfs/toolchain/gcc-pass-2.sh
+source $LFS/alfs/toolchain/gcc-pass-2.sh
 
 echo
 echo "Temp Toolchain completed."
