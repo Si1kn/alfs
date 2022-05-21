@@ -1,4 +1,4 @@
-cd ../sources
+cd /sources
 
 tar xvf example
 
@@ -6,7 +6,7 @@ cd example
 
 
 
-cd ../sources
+cd /sources
 
 rm -rf example
 
