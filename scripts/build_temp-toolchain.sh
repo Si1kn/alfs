@@ -30,6 +30,8 @@ $LFS/alfs/toolchain/xz.sh
 
 $LFS/alfs/toolchain/binutils-pass-2.sh
 
+$LFS/alfs/toolchain/gcc-pass-2.sh
+
 echo
 echo "Temp Toolchain completed."
 echo
