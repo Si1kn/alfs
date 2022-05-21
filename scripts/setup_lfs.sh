@@ -48,6 +48,7 @@ if [ ! -L /bin ]; then PATH=/bin:$PATH; fi
 PATH=$LFS/tools/bin:$PATH
 export ALFS LFS LC_ALL LFS_TGT PATH MAKEFLAGS
 export MAKEFLAGS='-j8'
+alias make="/usr/bin/make -j8"
 EOF
 
 chown lfs:lfs /home/lfs/.bash_profile
