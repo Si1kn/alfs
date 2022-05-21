@@ -10,6 +10,7 @@ cd bash-5.1.16
             --host=$LFS_TGT                 \
             --without-bash-malloc
 
+
 make -j8
 
 make DESTDIR=$LFS install
