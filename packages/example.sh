@@ -1,4 +1,4 @@
-cd $LFS/sources
+cd ../sources
 
 tar xvf example
 
@@ -6,7 +6,7 @@ cd example
 
 
 
-cd $LFS/sources
+cd ../sources
 
 rm -rf example
 

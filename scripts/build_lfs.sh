@@ -1,0 +1,1 @@
+$LFS/alfs/packages/man-pages.sh
